@@ -1,0 +1,23 @@
+html {
+    font-family:  georgia, serif;
+    font-weight: normal;
+    font-size: 10px;
+    background-color: #fff;
+    -moz-font-feature-settings: "onum" 1, "kern" 1;
+    -moz-font-feature-settings: "onum=1, kern=1";
+    -ms-font-feature-settings: "onum" 1, "kern" 1;
+    -o-font-feature-settings: "onum" 1, "kern" 1;
+    -webkit-font-feature-settings: "onum" 1, "kern" 1;
+    font-feature-settings: "onum" 1, "kern" 1;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+    background-color: #ffffff;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    line-height: 1.2;
+}
