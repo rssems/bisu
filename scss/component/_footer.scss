@@ -22,7 +22,7 @@ section.footer{
 		background:white;
 	}
 	.ic_bisuMini{
-		margin:9px 0 0 12px;
+		margin: 9px 0 0 11px;
 	}
 
 	p.copyright{
@@ -92,5 +92,8 @@ section.footer{
 		.ic_ins{
 			margin:-10px 0 0 -10px;
 		}
+	}
+	ul.ic_socialWrapper li a:hover{
+		opacity: 0.9;
 	}
 

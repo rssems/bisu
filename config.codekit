@@ -11,6 +11,105 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/img\/bisu_app.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 92822,
+		"inputAbbreviatedPath": "\/img\/bisu_app.png",
+		"outputAbbreviatedPath": "\/img\/bisu_app.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bisu_app@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 213709,
+		"inputAbbreviatedPath": "\/img\/bisu_app@2x.png",
+		"outputAbbreviatedPath": "\/img\/bisu_app@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bisu_app_1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14831,
+		"inputAbbreviatedPath": "\/img\/bisu_app_1.png",
+		"outputAbbreviatedPath": "\/img\/bisu_app_1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bisu_app_2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15326,
+		"inputAbbreviatedPath": "\/img\/bisu_app_2.png",
+		"outputAbbreviatedPath": "\/img\/bisu_app_2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bisu_app_3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15404,
+		"inputAbbreviatedPath": "\/img\/bisu_app_3.png",
+		"outputAbbreviatedPath": "\/img\/bisu_app_3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bisu_sprite.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8689,
+		"inputAbbreviatedPath": "\/img\/bisu_sprite.png",
+		"outputAbbreviatedPath": "\/img\/bisu_sprite.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bisu_sprite@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17622,
+		"inputAbbreviatedPath": "\/img\/bisu_sprite@2x.png",
+		"outputAbbreviatedPath": "\/img\/bisu_sprite@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/ic_close.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 290,
+		"inputAbbreviatedPath": "\/img\/ic_close.png",
+		"outputAbbreviatedPath": "\/img\/ic_close.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/ic_close@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 375,
+		"inputAbbreviatedPath": "\/img\/ic_close@2x.png",
+		"outputAbbreviatedPath": "\/img\/ic_close@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,

@@ -1,5 +1,5 @@
 section.contact{
-	padding: 5% 0;
+	padding: 5% 0 6% 0;
 	text-align:center;
 	h3{
 		color: #333;
@@ -7,7 +7,7 @@ section.contact{
 		font-weight:100;
 	}
 	p{
-		margin:2em 0 3em 0;
+		margin: 2em 0 2em 0;
 		color: #333;
 		font-size: 20px;
 		line-height: 30px;
@@ -15,7 +15,6 @@ section.contact{
 	}
 	a{
 		display: inline-block;
-		padding: 8px 60px;
 		color: white;
 		font-size: 14px;
 		line-height: 30px;
@@ -24,5 +23,7 @@ section.contact{
 		border-radius: 24px;
 		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.19);
 		margin-bottom: 20px;
+		padding: 10px 60px 7px 60px;
+		letter-spacing: 1px;
 	}
 }

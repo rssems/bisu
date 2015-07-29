@@ -15,7 +15,19 @@ section.lightbox{
 		height: 40px;
 		cursor: pointer;
 	}
-
+	.container{
+		position: relative;
+		z-index: 3;
+	}
+	.lightboxOverlay{
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		width: 100%;
+		height: 100%;
+	}
 	.contactForm{
 		margin-top: 15%;
 		background-color: white;
