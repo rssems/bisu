@@ -1250,8 +1250,9 @@ section.landing {
     background: rgba(255, 255, 255, 0.2); }
 
 .landing .fixedBar.active {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   width: 100%;
-  height: 68px;
+  min-height: 68px;
   position: fixed;
   z-index: 10;
   top: 0;
@@ -1260,6 +1261,8 @@ section.landing {
   padding-top: 10px; }
   .landing .fixedBar.active ul.ic_socialWrapper {
     display: block; }
+    .landing .fixedBar.active ul.ic_socialWrapper li a span.ic_social {
+      margin-bottom: 5px; }
   .landing .fixedBar.active h1 {
     -webkit-transform: scale(0.75);
     /* Chrome, Opera 15+, Safari 3.1+ */
