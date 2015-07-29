@@ -55,3 +55,58 @@ section.app_preview{
 		}
 	}
 }
+
+
+
+.preview1{
+	li:nth-child(1){
+		.text{
+			color: #0098ee;
+		}
+		.number{
+			background-color:#0098ee;
+			color: #fff;
+		}
+	}
+	#ss1,#ss2,#ss3{
+		display: none;
+	}
+	#ss1{
+		display: block;
+	}
+}
+.preview2{
+	li:nth-child(2){
+		.text{
+			color: #0098ee;
+		}
+		.number{
+			background-color:#0098ee;
+			color: #fff;
+		}
+	}
+	#ss1,#ss2,#ss3{
+		display: none;
+	}
+	#ss2{
+		display: block;
+	}
+}
+.preview3{
+	li:nth-child(3){
+		.text{
+			color: #0098ee;
+		}
+		.number{
+			background-color:#0098ee;
+			color: #fff;
+		}
+	}
+	#ss1,#ss2,#ss3{
+		display: none;
+	}
+	#ss3{
+		display: block;
+	}
+}
+

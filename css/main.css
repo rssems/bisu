@@ -1346,6 +1346,36 @@ section.app_preview {
     background-color: #0098ee;
     color: #fff; }
 
+.preview1 li:nth-child(1) .text {
+  color: #0098ee; }
+.preview1 li:nth-child(1) .number {
+  background-color: #0098ee;
+  color: #fff; }
+.preview1 #ss1, .preview1 #ss2, .preview1 #ss3 {
+  display: none; }
+.preview1 #ss1 {
+  display: block; }
+
+.preview2 li:nth-child(2) .text {
+  color: #0098ee; }
+.preview2 li:nth-child(2) .number {
+  background-color: #0098ee;
+  color: #fff; }
+.preview2 #ss1, .preview2 #ss2, .preview2 #ss3 {
+  display: none; }
+.preview2 #ss2 {
+  display: block; }
+
+.preview3 li:nth-child(3) .text {
+  color: #0098ee; }
+.preview3 li:nth-child(3) .number {
+  background-color: #0098ee;
+  color: #fff; }
+.preview3 #ss1, .preview3 #ss2, .preview3 #ss3 {
+  display: none; }
+.preview3 #ss3 {
+  display: block; }
+
 section.contact {
   padding: 5% 0;
   text-align: center; }
