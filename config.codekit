@@ -75,6 +75,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/bisu_sprite.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9396,
+		"inputAbbreviatedPath": "\/img\/bisu_sprite.png",
+		"outputAbbreviatedPath": "\/img\/bisu_sprite.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bisu_sprite@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19312,
+		"inputAbbreviatedPath": "\/img\/bisu_sprite@2x.png",
+		"outputAbbreviatedPath": "\/img\/bisu_sprite@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/ic_close.png": {
 		"fileType": 32768,
 		"ignore": 0,
