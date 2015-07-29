@@ -1,0 +1,76 @@
+section.landing{
+	padding-top: 5em;
+	background-color: #0098ee;
+	background-image: linear-gradient(-45deg, #0094e7 0%, #00c0ff 100%);
+	overflow:hidden;
+
+	h2{
+		color: white;
+		font-weight: 500;
+		font-size: 4em;
+		margin-top: 3.5em;
+	}
+	p{
+		color: white;
+		font-weight: 300;
+		font-size: 2em;
+		line-height: 1.5em;
+		margin-top: 1.5em;
+		margin-bottom: 2em;
+	}
+	.storeDownload{
+		margin-top: 7em;
+		a{
+			margin:0 1em 1em 0;
+		}
+	}
+	.otherDownload{
+		margin-top: 11em;
+		height: 30px;
+		span{
+			float: left;
+			display: inline-block;
+			span{
+				float: none;
+			}
+		}
+		span.icWrap{
+			width: 37px;
+			span{
+				margin:0 auto;
+				display: block;
+			}
+		}
+		span.otherDownload_text{
+			color: white;
+			font-weight: 700;
+			font-size: 14px;
+			line-height: 40px;
+			margin-left: 1em;
+			text-transform: uppercase;
+		}
+		a{
+			height: 30px;
+			display: block;
+			float: left;
+			margin:0 4em 2em 0;
+			&:hover{
+				text-decoration: none;
+			}
+		}
+
+	}
+}
+// Phone
+.bisu_app{
+	margin-bottom: -5px;
+}
+
+@media (max-width: 768px) {
+ section.landing{
+ 	h2, .storeDownload, .otherDownload{
+ 		margin-top:1em;
+ 	}
+ }
+}
+

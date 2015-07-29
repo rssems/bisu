@@ -11,9 +11,8 @@ html {
     font-feature-settings: "onum" 1, "kern" 1;
 }
 body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    line-height: 1.42857143;
+    font-family: "museo-sans", $font;
+    font-size: 10px;
     color: #333333;
     background-color: #ffffff;
 }

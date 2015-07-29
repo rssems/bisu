@@ -1,0 +1,110 @@
+.sprite{
+	display: inline-block;
+	background-image: url("../img/bisu_sprite.png");
+	text-indent:-9999px;
+
+	&.bisu_logo{
+		background-position: -1px -2px;
+		width: 189px;
+		height: 62px;
+	}
+	&.appstore{
+		background-position: 0 -67px;
+		width: 198px;
+		height: 58px;
+	}
+	&.googleplay{
+		background-position:0 -127px;
+		width: 198px;
+		height: 58px;
+	}
+	&.ic_play{
+		background-position:-1px -187px;
+		width: 37px;
+		height: 36px;
+	}
+	&.ic_phone{
+		background-position:-40px -187px;
+		width: 25px;
+		height: 36px;
+	}
+	&.ic_star{
+		background-position:-67px -187px;
+		width: 42px;
+		height: 40px;
+	}
+	&.ic_time{
+		background-position:-111px -187px;
+		width: 42px;
+		height: 40px;
+	}
+	&.ic_user{
+		background-position:-153px -187px;
+		width: 42px;
+		height: 40px;
+	}
+	&.ic_mobilePayment{
+		background-position:-6px -227px;
+		width: 40px;
+		height: 40px;
+	}
+	&.ic_bisuBig{
+		background-position:-98px -229px;
+		width: 102px;
+		height: 123px;
+		text-indent: 0;
+	}
+	&.ic_googleplay{
+		background-position:-53px -230px;
+		width: 19px;
+		height: 20px;
+	}
+	&.ic_appstore{
+		background-position:-49px -253px;
+		width: 19px;
+		height: 22px;
+	}
+	&.ic_fb{
+		background-position:-6px -280px;
+		width: 12px;
+		height: 24px;
+	}
+	&.ic_tw{
+		background-position:-25px -281px;
+		width: 22px;
+		height: 18px;
+	}
+	&.ic_ins{
+		background-position:-49px -280px;
+		width: 20px;
+		height: 20px;
+	}
+	&.ic_bisuMini{
+		background-position:-74px -240px;
+		width: 24px;
+		height: 28px;
+	}
+	&.ic_fb2{
+		background-position:-6px -309px;
+	}
+	&.ic_tw2{
+		background-position:-25px -311px;
+	}
+	&.ic_ins2{
+		background-position:-49px -310px;
+	}
+
+}
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+	.sprite{
+		background-image: url("../img/bisu_sprite@2x.png");
+		background-size: 200px 355px;
+	}
+
+}

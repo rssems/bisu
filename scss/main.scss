@@ -5,8 +5,12 @@
 @import "helper/normalize";
 @import "helper/font";
 @import "helper/typography";
-@import "helper/grid";
 @import "helper/global";
 // PLUGIN
+@import "helper/grid";
 // COMPONENT
+@import "component/sprite";
 @import "component/header";
+@import "component/feature";
+@import "component/contact";
+@import "component/footer";
