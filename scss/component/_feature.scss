@@ -2,7 +2,7 @@ section.feature{
 	width: 100%;
 	display: block;
 	background-color: #fafcfd;
-	padding: 4.5em 0 1em 0;
+	padding: 5% 0 1% 0;
 	text-align:center;
 
 	h4{
@@ -34,7 +34,7 @@ section.feature{
 	}
 }
 @media (max-width: 768px) {
-	.col-md-3{
+	section.feature .col-md-3{
 		width: 50%;
 		float: left;
 	}

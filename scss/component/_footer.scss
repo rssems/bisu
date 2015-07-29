@@ -1,5 +1,4 @@
 section.footer{
-	margin-top: 3em;
 	.top{
 		position: relative;
 		margin-bottom: 2em;
@@ -24,5 +23,72 @@ section.footer{
 	}
 	.ic_bisuMini{
 		margin:9px 0 0 12px;
+	}
+
+	p.copyright{
+		margin-top:20px;
+		margin-bottom: 20px;
+		display: block;
+		color: #8b9ca3;
+		font-weight:300;
+		font-size: 14px;
+	}
+	ul.ic_socialWrapper li a span.ic_social{
+		margin-bottom: 20px;
+		display: block;
+		float: left;
+		margin-right: 1em;
+		width: 48px;
+		height: 48px;
+		border: 1px solid #cad7db;
+		border-radius:24px;
+		position: relative;
+		&.ic_socialD{
+			background:black;
+			border: 1px solid black;
+		}
+		span{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+		}
+		.ic_appstore{
+			margin:-11px 0 0 -10px;
+		}
+		.ic_googleplay{
+			margin:-10px 0 0 -8px;
+		}
+		.ic_fb{
+			margin:-14px 0 0 -6px;
+		}
+		.ic_tw{
+			margin:-9px 0 0 -11px;
+		}
+		.ic_ins{
+			margin:-10px 0 0 -10px;
+		}
+	}
+	.footerLinks{
+		display: block;
+		margin-top: 25px;
+	}
+	.footerLinks li a{
+		float: right;
+		font-weight:700;
+		font-size: 14px;
+		text-transform: uppercase;
+		color: #333;
+		margin-left:1em;
+		&:hover{
+			color: #0098ee;
+		}
+	}
+	p.contantInfo{
+		margin-top:25px;
+		display: block;
+		float: right;
+		font-weight: 300;
+		color: #8b9ca3;
+		font-size: 18px;
 	}
 }

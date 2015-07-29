@@ -11,24 +11,35 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/img\/bisu_app_1.png": {
+	"\/img\/bisu_app.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 360456,
-		"inputAbbreviatedPath": "\/img\/bisu_app_1.png",
-		"outputAbbreviatedPath": "\/img\/bisu_app_1.png",
+		"inputAbbreviatedPath": "\/img\/bisu_app.png",
+		"outputAbbreviatedPath": "\/img\/bisu_app.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/bisu_app_1@2x.png": {
+	"\/img\/bisu_app@2x.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 941409,
-		"inputAbbreviatedPath": "\/img\/bisu_app_1@2x.png",
-		"outputAbbreviatedPath": "\/img\/bisu_app_1@2x.png",
+		"inputAbbreviatedPath": "\/img\/bisu_app@2x.png",
+		"outputAbbreviatedPath": "\/img\/bisu_app@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bisu_app_1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 49076,
+		"inputAbbreviatedPath": "\/img\/bisu_app_1.png",
+		"outputAbbreviatedPath": "\/img\/bisu_app_1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -37,20 +48,20 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 49076,
+		"initialSize": 52249,
 		"inputAbbreviatedPath": "\/img\/bisu_app_2.png",
 		"outputAbbreviatedPath": "\/img\/bisu_app_2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/bisu_app_2@2x.png": {
+	"\/img\/bisu_app_3.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 120964,
-		"inputAbbreviatedPath": "\/img\/bisu_app_2@2x.png",
-		"outputAbbreviatedPath": "\/img\/bisu_app_2@2x.png",
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/img\/bisu_app_3.png",
+		"outputAbbreviatedPath": "\/img\/bisu_app_3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -161,6 +172,22 @@
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
+		},
+	"\/scss\/component\/_apppreview.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/component\/_apppreview.scss",
+		"outputAbbreviatedPath": "\/scss\/css\/_apppreview.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
 		},
 	"\/scss\/component\/_contact.scss": {
 		"createSourceMap": 0,

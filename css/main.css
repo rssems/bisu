@@ -412,7 +412,7 @@ a {
   user-select: none;
   text-decoration: none; }
   a:hover {
-    text-decoration: underline; }
+    text-decoration: none; }
 
 .clearfix:before,
 .clearfix:after,
@@ -1179,13 +1179,17 @@ img {
     background-position: -25px -311px; }
   .sprite.ic_ins2 {
     background-position: -49px -310px; }
+  .sprite.ic_check {
+    background-position: -80px -276px;
+    width: 12px;
+    height: 9px; }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .sprite {
     background-image: url("../img/bisu_sprite@2x.png");
     background-size: 200px 355px; } }
 section.landing {
-  padding-top: 5em;
+  padding-top: 5%;
   background-color: #0098ee;
   background-image: linear-gradient(-45deg, #0094e7 0%, #00c0ff 100%);
   overflow: hidden; }
@@ -1243,7 +1247,7 @@ section.feature {
   width: 100%;
   display: block;
   background-color: #fafcfd;
-  padding: 4.5em 0 1em 0;
+  padding: 5% 0 1% 0;
   text-align: center; }
   section.feature h4 {
     color: #333;
@@ -1270,11 +1274,55 @@ section.feature {
     margin-bottom: 2em; }
 
 @media (max-width: 768px) {
-  .col-md-3 {
+  section.feature .col-md-3 {
     width: 50%;
     float: left; } }
+section.app_preview {
+  padding: 5% 0; }
+  section.app_preview img {
+    box-shadow: 0 0 24px rgba(0, 0, 0, 0.24); }
+  section.app_preview h3 {
+    font-weight: 100;
+    color: #333;
+    font-size: 40px;
+    line-height: 48px;
+    padding-top: 5%;
+    margin-bottom: 5%; }
+  section.app_preview li {
+    margin-top: 20px;
+    cursor: pointer; }
+  section.app_preview .number {
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    line-height: 24px;
+    background-color: #cad7db;
+    border-radius: 14px;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    position: relative;
+    margin-right: 25px; }
+    section.app_preview .number span {
+      margin-top: 6px; }
+  section.app_preview .text {
+    display: inline-block;
+    color: #96a7ae;
+    font-weight: 300px;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 20px; }
+  section.app_preview .col-md-offset-1.col-md-7 {
+    padding-right: 0; }
+  section.app_preview .active .text {
+    color: #0098ee; }
+  section.app_preview .active .number {
+    background-color: #0098ee;
+    color: #fff; }
+
 section.contact {
-  padding: 6em 0;
+  padding: 5% 0;
   text-align: center; }
   section.contact h3 {
     color: #333;
@@ -1287,35 +1335,88 @@ section.contact {
     line-height: 30px;
     font-weight: 300; }
   section.contact a {
-    padding: 15px 60px;
+    display: inline-block;
+    padding: 8px 60px;
     color: white;
     font-size: 14px;
     line-height: 30px;
     font-weight: 700;
     background-color: #0098ee;
     border-radius: 24px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.19); }
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px; }
 
-section.footer {
-  margin-top: 3em; }
-  section.footer .top {
-    position: relative;
-    margin-bottom: 2em; }
-  section.footer .hr {
-    height: 1px;
-    width: 100%;
-    background: #cad7db;
-    display: block; }
-  section.footer .ball {
+section.footer .top {
+  position: relative;
+  margin-bottom: 2em; }
+section.footer .hr {
+  height: 1px;
+  width: 100%;
+  background: #cad7db;
+  display: block; }
+section.footer .ball {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  background-color: white;
+  border: 1px solid #cad7db;
+  border-radius: 24px;
+  top: -24px;
+  left: 50%;
+  margin-left: -24px;
+  background: white; }
+section.footer .ic_bisuMini {
+  margin: 9px 0 0 12px; }
+section.footer p.copyright {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: block;
+  color: #8b9ca3;
+  font-weight: 300;
+  font-size: 14px; }
+section.footer ul.ic_socialWrapper li a span.ic_social {
+  margin-bottom: 20px;
+  display: block;
+  float: left;
+  margin-right: 1em;
+  width: 48px;
+  height: 48px;
+  border: 1px solid #cad7db;
+  border-radius: 24px;
+  position: relative; }
+  section.footer ul.ic_socialWrapper li a span.ic_social.ic_socialD {
+    background: black;
+    border: 1px solid black; }
+  section.footer ul.ic_socialWrapper li a span.ic_social span {
     position: absolute;
-    width: 48px;
-    height: 48px;
-    background-color: white;
-    border: 1px solid #cad7db;
-    border-radius: 24px;
-    top: -24px;
-    left: 50%;
-    margin-left: -24px;
-    background: white; }
-  section.footer .ic_bisuMini {
-    margin: 9px 0 0 12px; }
+    top: 50%;
+    left: 50%; }
+  section.footer ul.ic_socialWrapper li a span.ic_social .ic_appstore {
+    margin: -11px 0 0 -10px; }
+  section.footer ul.ic_socialWrapper li a span.ic_social .ic_googleplay {
+    margin: -10px 0 0 -8px; }
+  section.footer ul.ic_socialWrapper li a span.ic_social .ic_fb {
+    margin: -14px 0 0 -6px; }
+  section.footer ul.ic_socialWrapper li a span.ic_social .ic_tw {
+    margin: -9px 0 0 -11px; }
+  section.footer ul.ic_socialWrapper li a span.ic_social .ic_ins {
+    margin: -10px 0 0 -10px; }
+section.footer .footerLinks {
+  display: block;
+  margin-top: 25px; }
+section.footer .footerLinks li a {
+  float: right;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #333;
+  margin-left: 1em; }
+  section.footer .footerLinks li a:hover {
+    color: #0098ee; }
+section.footer p.contantInfo {
+  margin-top: 25px;
+  display: block;
+  float: right;
+  font-weight: 300;
+  color: #8b9ca3;
+  font-size: 18px; }
