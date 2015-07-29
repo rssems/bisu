@@ -10,3 +10,7 @@ $(document).ready(function(){
         resizeContent();
     });
 });
+
+$( ".contactLink" ).click(function() {
+  $( "#contactLightbox" ).toggle();
+});

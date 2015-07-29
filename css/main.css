@@ -1420,3 +1420,84 @@ section.footer p.contantInfo {
   font-weight: 300;
   color: #8b9ca3;
   font-size: 18px; }
+
+section.lightbox {
+  display: none;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(148, 172, 186, 0.8); }
+  section.lightbox .ic_close {
+    display: inline-block;
+    background-image: url("../img/ic_close.png");
+    width: 40px;
+    height: 40px;
+    cursor: pointer; }
+  section.lightbox .contactForm {
+    margin-top: 15%;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 21px rgba(0, 0, 0, 0.2);
+    padding: 30px 40px;
+    position: relative; }
+    section.lightbox .contactForm .ic_close {
+      position: absolute;
+      top: 0;
+      right: -80px; }
+    section.lightbox .contactForm h3 {
+      color: #333;
+      font-weight: 100;
+      font-size: 40px;
+      margin-bottom: 30px; }
+    section.lightbox .contactForm p {
+      color: #333;
+      font-size: 20px;
+      line-height: 30px;
+      font-weight: 300;
+      margin-bottom: 30px; }
+    section.lightbox .contactForm input, section.lightbox .contactForm textarea {
+      display: block;
+      width: 100%;
+      background-color: white;
+      border: 1px solid #96a7ae;
+      border-radius: 6px;
+      padding: 5px 10px;
+      margin-bottom: 10px;
+      color: #96a7ae;
+      font-size: 14px;
+      line-height: 24px;
+      font-weight: 500; }
+      section.lightbox .contactForm input:focus, section.lightbox .contactForm textarea:focus {
+        border: 1px solid #0098ee;
+        outline: none; }
+    section.lightbox .contactForm textarea {
+      height: 100px; }
+    section.lightbox .contactForm a {
+      display: inline-block;
+      float: right;
+      padding: 8px 60px;
+      color: white;
+      font-size: 14px;
+      line-height: 30px;
+      font-weight: 700;
+      background-color: #00d07f;
+      border-radius: 24px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.19); }
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .ic_close {
+    background-image: url("../img/ic_close@2x.png");
+    background-size: 40px 40px; } }
+@media (max-width: 768px) {
+  section.lightbox h3, section.lightbox p {
+    margin: 5px 0 !important; }
+
+  .contactForm {
+    margin-top: 70px !important; }
+    .contactForm .ic_close {
+      top: -50px !important;
+      right: 50% !important;
+      margin-right: -20px; } }
