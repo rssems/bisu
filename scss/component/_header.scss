@@ -3,8 +3,9 @@ section.landing{
 	background-color: #0098ee;
 	background-image: linear-gradient(-45deg, #0094e7 0%, #00c0ff 100%);
 	overflow:hidden;
-	max-height: 780px; 
-
+	.row.up{
+		margin-top: -50px;
+	}
 	h2{
 		color: white;
 		font-weight: 100;
@@ -73,7 +74,10 @@ section.landing{
 
 @media (max-width: 768px) {
  section.landing{
- 	h2, .storeDownload, .otherDownload{
+ 	h2{
+ 		margin-top: 2em;
+ 	}
+ 	.storeDownload, .otherDownload{
  		margin-top:1em;
  	}
  }
@@ -86,7 +90,10 @@ section.landing{
 		background:rgba(255,255,255,0.2);
 	}
 }
-
+.bisu_bisu{
+	display: none;
+	margin-top: 4px;
+}
 .landing .fixedBar.active{
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 	width: 100%;
@@ -104,11 +111,12 @@ section.landing{
 		}
 	}
 	h1{
-		-webkit-transform: scale(0.75);  /* Chrome, Opera 15+, Safari 3.1+ */
-		-ms-transform: scale(0.75);  /* IE 9 */
-		transform: scale(0.75);
-		margin-top: -5px;
-		margin-left: -20px;
+		.bisu_logo{
+			display: none;
+		}
+		.bisu_bisu{
+			display: block;
+		}
 	}
 }
 .notFixed{
@@ -117,4 +125,15 @@ section.landing{
 	.active{
 		position: static!important;
 	}
+}
+@media (max-width: 768px) {
+	section.landing{
+		max-height: 780px; 
+	}
+}
+
+@media (max-width: 768px) {
+  ul.ic_socialWrapper {
+    display: none!important;
+  }
 }

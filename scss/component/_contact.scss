@@ -25,5 +25,8 @@ section.contact{
 		margin-bottom: 20px;
 		padding: 10px 60px 7px 60px;
 		letter-spacing: 1px;
+		&:hover{
+			opacity: 0.9;
+		}
 	}
 }

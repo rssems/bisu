@@ -98,6 +98,11 @@
 		width: 12px;
 		height: 9px;
 	}
+	&.bisu_bisu{
+		background-position:-2px -357px;
+		width: 131px;
+		height: 41px;
+	}
 
 }
 @media
@@ -109,7 +114,7 @@ only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
 	.sprite{
 		background-image: url("../img/bisu_sprite@2x.png");
-		background-size: 200px 355px;
+		background-size: 200px 400px;
 	}
 
 }
