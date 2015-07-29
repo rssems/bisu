@@ -1,5 +1,5 @@
 function resizeContent() {
-    $height = $(window).height();
+    var $height = $(window).height();
     $('.fullHeight').css('min-height', $height+'px');
 }
 
@@ -13,4 +13,18 @@ $(document).ready(function(){
 
 $( ".contactLink" ).click(function() {
   $( "#contactLightbox" ).toggle();
+});
+
+
+
+var $document = $(document),
+    $element = $('.fixedBar'),
+    className = 'active';
+
+$document.scroll(function() {
+  if ($document.scrollTop() >= 75) {
+    $element.addClass(className);
+  } else {
+    $element.removeClass(className);
+  }
 });

@@ -1243,6 +1243,31 @@ section.landing {
 @media (max-width: 768px) {
   section.landing h2, section.landing .storeDownload, section.landing .otherDownload {
     margin-top: 1em; } }
+.landing ul.ic_socialWrapper {
+  display: none; }
+  .landing ul.ic_socialWrapper li a span.ic_social {
+    border: none;
+    background: rgba(255, 255, 255, 0.2); }
+
+.landing .fixedBar.active {
+  width: 100%;
+  height: 68px;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  background: #0098ee;
+  padding-top: 10px; }
+  .landing .fixedBar.active ul.ic_socialWrapper {
+    display: block; }
+  .landing .fixedBar.active h1 {
+    -webkit-transform: scale(0.75);
+    /* Chrome, Opera 15+, Safari 3.1+ */
+    -ms-transform: scale(0.75);
+    /* IE 9 */
+    transform: scale(0.75);
+    margin-top: -5px; }
+
 section.feature {
   width: 100%;
   display: block;
@@ -1374,33 +1399,6 @@ section.footer p.copyright {
   color: #8b9ca3;
   font-weight: 300;
   font-size: 14px; }
-section.footer ul.ic_socialWrapper li a span.ic_social {
-  margin-bottom: 20px;
-  display: block;
-  float: left;
-  margin-right: 1em;
-  width: 48px;
-  height: 48px;
-  border: 1px solid #cad7db;
-  border-radius: 24px;
-  position: relative; }
-  section.footer ul.ic_socialWrapper li a span.ic_social.ic_socialD {
-    background: black;
-    border: 1px solid black; }
-  section.footer ul.ic_socialWrapper li a span.ic_social span {
-    position: absolute;
-    top: 50%;
-    left: 50%; }
-  section.footer ul.ic_socialWrapper li a span.ic_social .ic_appstore {
-    margin: -11px 0 0 -10px; }
-  section.footer ul.ic_socialWrapper li a span.ic_social .ic_googleplay {
-    margin: -10px 0 0 -8px; }
-  section.footer ul.ic_socialWrapper li a span.ic_social .ic_fb {
-    margin: -14px 0 0 -6px; }
-  section.footer ul.ic_socialWrapper li a span.ic_social .ic_tw {
-    margin: -9px 0 0 -11px; }
-  section.footer ul.ic_socialWrapper li a span.ic_social .ic_ins {
-    margin: -10px 0 0 -10px; }
 section.footer .footerLinks {
   display: block;
   margin-top: 25px; }
@@ -1421,10 +1419,38 @@ section.footer p.contantInfo {
   color: #8b9ca3;
   font-size: 18px; }
 
+ul.ic_socialWrapper li a span.ic_social {
+  margin-bottom: 20px;
+  display: block;
+  float: left;
+  margin-right: 1em;
+  width: 48px;
+  height: 48px;
+  border: 1px solid #cad7db;
+  border-radius: 24px;
+  position: relative; }
+  ul.ic_socialWrapper li a span.ic_social.ic_socialD {
+    background: black;
+    border: 1px solid black; }
+  ul.ic_socialWrapper li a span.ic_social span {
+    position: absolute;
+    top: 50%;
+    left: 50%; }
+  ul.ic_socialWrapper li a span.ic_social .ic_appstore {
+    margin: -11px 0 0 -10px; }
+  ul.ic_socialWrapper li a span.ic_social .ic_googleplay {
+    margin: -10px 0 0 -8px; }
+  ul.ic_socialWrapper li a span.ic_social .ic_fb {
+    margin: -14px 0 0 -6px; }
+  ul.ic_socialWrapper li a span.ic_social .ic_tw {
+    margin: -9px 0 0 -11px; }
+  ul.ic_socialWrapper li a span.ic_social .ic_ins {
+    margin: -10px 0 0 -10px; }
+
 section.lightbox {
   display: none;
   position: fixed;
-  z-index: 2;
+  z-index: 50;
   top: 0;
   left: 0;
   width: 100%;
