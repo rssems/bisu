@@ -108,5 +108,13 @@ section.landing{
 		-ms-transform: scale(0.75);  /* IE 9 */
 		transform: scale(0.75);
 		margin-top: -5px;
+		margin-left: -20px;
+	}
+}
+.notFixed{
+	padding: 0!important;
+	margin: 0 0 20px 0!important;
+	.active{
+		position: static!important;
 	}
 }

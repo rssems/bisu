@@ -1282,141 +1282,6 @@ section.landing {
   .notFixed .active {
     position: static !important; }
 
-section.feature {
-  width: 100%;
-  display: block;
-  background-color: #fafcfd;
-  padding: 5% 0 1% 0;
-  text-align: center; }
-  section.feature h4 {
-    color: #333;
-    font-weight: 700;
-    font-size: 14px;
-    margin: 1em 0; }
-  section.feature p {
-    color: #717171;
-    font-size: 14px;
-    line-height: 24px;
-    margin-bottom: 2em; }
-  section.feature .ic_bisuBig span {
-    margin-top: 50px; }
-  section.feature .annotation {
-    display: inline-block;
-    background-color: #ffa726;
-    border-radius: 3px;
-    color: white;
-    font-size: 12px;
-    margin-top: -1em;
-    margin-bottom: 2em;
-    padding: 6px 17px 4px 17px;
-    font-weight: 700;
-    letter-spacing: 1px; }
-
-@media (max-width: 768px) {
-  section.feature .col-md-3 {
-    width: 50%;
-    float: left; } }
-section.app_preview {
-  padding: 5% 0; }
-  section.app_preview img {
-    box-shadow: 0 0 24px rgba(0, 0, 0, 0.24); }
-  section.app_preview h3 {
-    font-weight: 100;
-    color: #333;
-    font-size: 40px;
-    line-height: 48px;
-    padding-top: 5%;
-    margin-bottom: 5%;
-    padding-left: 53px; }
-  section.app_preview li {
-    margin-top: 20px;
-    cursor: pointer; }
-  section.app_preview .number {
-    display: inline-block;
-    width: 28px;
-    height: 28px;
-    line-height: 24px;
-    background-color: #cad7db;
-    border-radius: 14px;
-    text-align: center;
-    color: white;
-    font-weight: 500;
-    font-size: 18px;
-    position: relative;
-    margin-right: 25px; }
-    section.app_preview .number span {
-      margin-top: 6px; }
-  section.app_preview .text {
-    display: inline-block;
-    color: #96a7ae;
-    font-weight: 300px;
-    font-size: 20px;
-    line-height: 30px;
-    margin-bottom: 20px; }
-  section.app_preview .col-md-offset-1.col-md-7 {
-    padding-right: 0; }
-  section.app_preview .active .text {
-    color: #0098ee; }
-  section.app_preview .active .number {
-    background-color: #0098ee;
-    color: #fff; }
-
-.preview1 li:nth-child(1) .text {
-  color: #0098ee; }
-.preview1 li:nth-child(1) .number {
-  background-color: #0098ee;
-  color: #fff; }
-.preview1 #ss1, .preview1 #ss2, .preview1 #ss3 {
-  display: none; }
-.preview1 #ss1 {
-  display: block; }
-
-.preview2 li:nth-child(2) .text {
-  color: #0098ee; }
-.preview2 li:nth-child(2) .number {
-  background-color: #0098ee;
-  color: #fff; }
-.preview2 #ss1, .preview2 #ss2, .preview2 #ss3 {
-  display: none; }
-.preview2 #ss2 {
-  display: block; }
-
-.preview3 li:nth-child(3) .text {
-  color: #0098ee; }
-.preview3 li:nth-child(3) .number {
-  background-color: #0098ee;
-  color: #fff; }
-.preview3 #ss1, .preview3 #ss2, .preview3 #ss3 {
-  display: none; }
-.preview3 #ss3 {
-  display: block; }
-
-section.contact {
-  padding: 5% 0 6% 0;
-  text-align: center; }
-  section.contact h3 {
-    color: #333;
-    font-size: 40px;
-    font-weight: 100; }
-  section.contact p {
-    margin: 2em 0 2em 0;
-    color: #333;
-    font-size: 20px;
-    line-height: 30px;
-    font-weight: 300; }
-  section.contact a {
-    display: inline-block;
-    color: white;
-    font-size: 14px;
-    line-height: 30px;
-    font-weight: 700;
-    background-color: #0098ee;
-    border-radius: 24px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.19);
-    margin-bottom: 20px;
-    padding: 10px 60px 7px 60px;
-    letter-spacing: 1px; }
-
 section.footer .top {
   position: relative;
   margin-bottom: 2em; }
@@ -1496,94 +1361,22 @@ ul.ic_socialWrapper li a span.ic_social {
 ul.ic_socialWrapper li a:hover {
   opacity: 0.9; }
 
-section.lightbox {
-  display: none;
-  position: fixed;
-  z-index: 50;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(148, 172, 186, 0.8); }
-  section.lightbox .ic_close {
-    display: inline-block;
-    background-image: url("../img/ic_close.png");
-    width: 40px;
-    height: 40px;
-    cursor: pointer; }
-  section.lightbox .container {
-    position: relative;
-    z-index: 3; }
-  section.lightbox .lightboxOverlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100%; }
-  section.lightbox .contactForm {
-    margin-top: 15%;
-    background-color: white;
-    border-radius: 4px;
-    box-shadow: 0 2px 21px rgba(0, 0, 0, 0.2);
-    padding: 30px 40px;
-    position: relative; }
-    section.lightbox .contactForm .ic_close {
-      position: absolute;
-      top: 0;
-      right: -80px; }
-    section.lightbox .contactForm h3 {
-      color: #333;
-      font-weight: 100;
-      font-size: 40px;
-      margin-bottom: 30px; }
-    section.lightbox .contactForm p {
-      color: #333;
-      font-size: 20px;
-      line-height: 30px;
-      font-weight: 300;
-      margin-bottom: 30px; }
-    section.lightbox .contactForm input, section.lightbox .contactForm textarea {
-      display: block;
-      width: 100%;
-      background-color: white;
-      border: 1px solid #96a7ae;
-      border-radius: 6px;
-      padding: 5px 10px;
-      margin-bottom: 10px;
-      color: #96a7ae;
-      font-size: 14px;
-      line-height: 24px;
-      font-weight: 500; }
-      section.lightbox .contactForm input:focus, section.lightbox .contactForm textarea:focus {
-        border: 1px solid #0098ee;
-        outline: none; }
-    section.lightbox .contactForm textarea {
-      height: 100px; }
-    section.lightbox .contactForm a {
-      display: inline-block;
-      float: right;
-      padding: 8px 60px;
-      color: white;
-      font-size: 14px;
-      line-height: 30px;
-      font-weight: 700;
-      background-color: #00d07f;
-      border-radius: 24px;
-      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.19); }
-
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .ic_close {
-    background-image: url("../img/ic_close@2x.png");
-    background-size: 40px 40px; } }
-@media (max-width: 768px) {
-  section.lightbox h3, section.lightbox p {
-    margin: 5px 0 !important; }
-
-  .contactForm {
-    margin-top: 70px !important; }
-    .contactForm .ic_close {
-      top: -50px !important;
-      right: 50% !important;
-      margin-right: -20px; } }
+section.template {
+  margin-bottom: 7%; }
+  section.template h2 {
+    font-weight: 100;
+    color: #333;
+    font-size: 40px;
+    line-height: 48px;
+    padding-top: 2%;
+    margin-bottom: 5%; }
+  section.template h3 {
+    color: #333;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 3%; }
+  section.template p {
+    color: #717171;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 10px; }
